@@ -1,0 +1,35 @@
+/* create css animation class, change color from 0 opacity to 100 */
+
+.fade-colors-yellow {
+  animation: fadeinYellow 1s linear both;
+}
+
+@keyframes fadeinYellow {
+  from {
+    opacity: 0;
+    background: transparent;
+    color: white;
+  }
+  to {
+    opacity: 1;
+    background: yellow;
+    color: black;
+  }
+}
+
+.fade-colors-green {
+  animation: fadeinGreen 1s linear both;
+}
+
+@keyframes fadeinGreen {
+  from {
+    opacity: 1;
+    background: yellow;
+    color: black;
+  }
+  to {
+    opacity: 1;
+    background: green;
+    color: white;
+  }
+}

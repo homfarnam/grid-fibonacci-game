@@ -89,7 +89,7 @@ const checkFib = ({
   col_end: number
   row: number
   table: number[][]
-}) => {
+}): boolean => {
   if (
     col_start < 0 ||
     col_end < 0 ||

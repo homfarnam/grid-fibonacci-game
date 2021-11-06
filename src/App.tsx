@@ -64,10 +64,8 @@ const App: React.FC = () => {
           for (let k = 4; k >= 0; k--) {
             changeBgColor(mainTable, i, j - k, "green")
           }
-          // remove these cell values
 
           setTimeout(() => {
-            console.log("timeout")
             removeCellValues({ row: i, col_start: j, col_end: j - 4 })
           }, 2000)
         }

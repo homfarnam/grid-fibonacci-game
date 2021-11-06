@@ -41,35 +41,6 @@ const changeBgColor = (
       cell.className = prevClasses + " fade-colors-green"
     }
   }
-
-  // check all 5 previous cells values with current cell
-  let valid = true
-  for (let i = 0; i <= 4; i++) {
-    if (
-      arr[row][col - i] !==
-      arr?.[row]?.[col - i + 1] + arr?.[row]?.[col - i + 2]
-    ) {
-      valid = false
-      break
-    }
-  }
-
-  if (valid) {
-    console.log("current cell: ", { row, col }, arr[row][col])
-    // add css class to these 5 cells and remove values after 5 second
-    setTimeout(() => {
-      const cells = document.querySelectorAll(
-        `.cell-${row * 10 + col}`
-      ) as NodeListOf<HTMLElement>
-      console.log("cells: ", cells)
-      cells.forEach((cell) => {
-        cell.className = cell.className.replace(
-          "fade-colors",
-          "fade-colors-green"
-        )
-      })
-    }, 5000)
-  }
 }
 
 const colorize = (arr: number[][], row: number, col: number): number[][] => {

@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react"
-import { colorize, incrementArray, matrix } from "utils/utils"
+import {
+  changeBgColor,
+  checkFib,
+  colorize,
+  incrementArray,
+  matrix,
+} from "utils/utils"
 
 const App: React.FC = () => {
-  const [mainTable, setMainTable] = useState<number[][]>(matrix(10, 10, null))
-  const [clickedCell, setClickedCell] = useState<{
-    row: number
-    col: number
-  }>({
-    row: 0,
-    col: 0,
-  })
+  const [mainTable, setMainTable] = useState<number[][]>(matrix(10, 10, 0))
 
   const clickCell = (
     e: React.MouseEvent<HTMLTableCellElement>,
@@ -17,11 +16,10 @@ const App: React.FC = () => {
     col: number
   ) => {
     setMainTable((prev) => colorize(incrementArray(prev, row, col), row, col))
-    setClickedCell({ row, col })
   }
 
   const resetGame = () => {
-    setMainTable(matrix(10, 10, null))
+    setMainTable(matrix(10, 10, 0))
 
     const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
 
@@ -30,50 +28,52 @@ const App: React.FC = () => {
     })
   }
 
+  const removeCellValues = ({
+    col_start,
+    col_end,
+    row,
+  }: {
+    col_start: number
+    col_end: number
+    row: number
+  }) => {
+    for (let i = col_start; i >= col_end; i--) {
+      setMainTable((prev) => {
+        const newTable = [...prev]
+        newTable[row][i] = 0
+        return newTable
+      })
+    }
+
+    const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
+
+    cells.forEach((cell) => {
+      let prevClasses = cell.className
+      prevClasses = prevClasses.replace("fade-colors-green", "")
+
+      cell.className = prevClasses
+    })
+  }
+
   useEffect(() => {
-    if (mainTable) {
-      const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
-
-      let valid = true
-      for (let i = 0; i < mainTable.length; i++) {
-        for (let j = 0; j < mainTable.length; j++) {
-          for (let s = 0; s <= 4; s++) {
-            if (
-              mainTable[i][j] !==
-              mainTable?.[i]?.[j - s + 1] + mainTable?.[i]?.[j - s + 2]
-            ) {
-              console.log(
-                "mainTable[i][j]: ",
-                { row: i, col: j },
-                mainTable[i][j]
-              )
-              valid = false
-              break
-            }
+    for (let i = 0; i < mainTable.length; i++) {
+      for (let j = 0; j < mainTable.length; j++) {
+        if (
+          checkFib({ row: i, col_start: j, col_end: j - 4, table: mainTable })
+        ) {
+          for (let k = 4; k >= 0; k--) {
+            changeBgColor(mainTable, i, j - k, "green")
           }
+          // remove these cell values
 
-          if (valid) {
-            console.log("valid: ", valid)
-            // add css class to these 5 cells and remove values after 5 second
-            // setTimeout(() => {
-            //   const cells = document.querySelectorAll(
-            //     `.cell-${clickedCell.row * 10 + clickedCell.col}`
-            //   ) as NodeListOf<HTMLElement>
-
-            //   console.log("cells 3434: ", cells)
-
-            //   // cells.forEach((cell) => {
-            //   //   cell.className = cell.className.replace(
-            //   //     "fade-colors",
-            //   //     "fade-colors-green"
-            //   //   )
-            //   // })
-            // }, 5000)
-          }
+          setTimeout(() => {
+            console.log("timeout")
+            removeCellValues({ row: i, col_start: j, col_end: j - 4 })
+          }, 2000)
         }
       }
     }
-  }, [mainTable, clickedCell])
+  }, [mainTable])
 
   return (
     <div className="w-full min-h-screen text-white bg-black">
@@ -87,18 +87,26 @@ const App: React.FC = () => {
         <table className="text-white border">
           {mainTable.map((row, i: number) => (
             <tr key={i} className="p-3">
-              {row.map((cell, j: number) => (
-                <td
-                  className="p-5 border cursor-pointer cell"
-                  key={j}
-                  id={`cell-${i * 10 + j}`}
-                  onClick={(e) => {
-                    clickCell(e, i, j)
-                  }}
-                >
-                  {mainTable[i][j]}
-                </td>
-              ))}
+              {row.map((cell, j: number) => {
+                checkFib({
+                  row: i,
+                  col_start: j,
+                  col_end: j - 4,
+                  table: mainTable,
+                })
+                return (
+                  <td
+                    className="p-5 border cursor-pointer cell"
+                    key={i * 10 + j}
+                    id={`cell-${i * 10 + j}`}
+                    onClick={(e) => {
+                      clickCell(e, i, j)
+                    }}
+                  >
+                    {mainTable[i][j]}
+                  </td>
+                )
+              })}
             </tr>
           ))}
         </table>

@@ -1,9 +1,69 @@
 import React from "react"
-import { render, screen } from "@testing-library/react"
+import { cleanup, render, screen } from "@testing-library/react"
 import App from "./App"
+import Enzyme, { shallow } from "enzyme"
+import Adapter from "@wojtekmaj/enzyme-adapter-react-17"
+import toJson from "enzyme-to-json"
+import { Button } from "components"
 
-test("renders learn react link", () => {
-  render(<App />)
-  const linkElement = screen.getByText(/learn react/i)
-  expect(linkElement).toBeInTheDocument()
+Enzyme.configure({ adapter: new Adapter() })
+afterEach(cleanup)
+
+describe("snapshot test", () => {
+  test("snapshot test Home page", () => {
+    const wrapper = Enzyme.shallow(<App />)
+
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
+
+  test("test click on one cell and make it yellow", () => {
+    const wrapper = Enzyme.shallow(<App />)
+
+    wrapper.find("#cell-0-0").simulate("click")
+
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
+
+  test("test click on 5 cell and make it green and expect to be empty", () => {
+    const wrapper = Enzyme.shallow(<App />)
+
+    wrapper.find("#cell-0-0").simulate("click")
+    wrapper.find("#cell-1-2").simulate("click")
+    wrapper.find("#cell-1-3").simulate("click")
+    wrapper.find("#cell-1-3").simulate("click")
+    wrapper.find("#cell-1-4").simulate("click")
+    wrapper.find("#cell-1-4").simulate("click")
+    wrapper.find("#cell-1-4").simulate("click")
+    wrapper.find("#cell-1-4").simulate("click")
+
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
+
+  test("test click on reset button and expect empty table ", () => {
+    const wrapper = Enzyme.shallow(<App />)
+
+    wrapper.find("#cell-0-0").simulate("click")
+
+    wrapper.find("#reset").simulate("click")
+
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
+
+  test("expect the game works after reset ", () => {
+    const wrapper = Enzyme.shallow(<App />)
+
+    wrapper.find("#cell-0-0").simulate("click")
+
+    wrapper.find("#reset").simulate("click")
+
+    wrapper.find("#cell-0-1").simulate("click")
+
+    expect(toJson(wrapper)).toMatchSnapshot()
+  })
+
+  it("return span with text ", () => {
+    const wrapper = shallow(<App />).find(Button)
+
+    expect(wrapper.find(Button).prop("text")).toBe("Reset the game")
+  })
 })

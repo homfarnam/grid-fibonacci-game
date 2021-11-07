@@ -21,12 +21,12 @@ const incrementArray = (
 }
 
 const changeBgColor = (
-  arr: number[][],
   row: number,
   col: number,
+
   color?: string
 ): void => {
-  const cell = document.getElementById(`cell-${row * 10 + col}`)
+  const cell = document.getElementById(`cell-${row}-${col}`)
 
   if (cell && !color) {
     const prevClasses = cell.className
@@ -45,7 +45,7 @@ const changeBgColor = (
 
 const colorize = (arr: number[][], row: number, col: number): number[][] => {
   // create function for change bgcolor of current cell
-  changeBgColor(arr, row, col)
+  changeBgColor(row, col)
 
   return arr
 }
@@ -83,4 +83,40 @@ const checkFib = ({
   )
 }
 
-export { matrix, incrementArray, colorize, changeBgColor, checkFib }
+const removeCellValues = ({
+  col_start,
+  col_end,
+  row,
+  setMainTable,
+}: {
+  col_start: number
+  col_end: number
+  row: number
+  setMainTable: React.Dispatch<React.SetStateAction<number[][]>>
+}): void => {
+  for (let i = col_start; i >= col_end; i--) {
+    setMainTable((prev) => {
+      const newTable = [...prev]
+      newTable[row][i] = 0
+      return newTable
+    })
+  }
+
+  const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
+
+  cells.forEach((cell) => {
+    let prevClasses = cell.className
+    prevClasses = prevClasses.replace("fade-colors-green", "")
+
+    cell.className = prevClasses
+  })
+}
+
+export {
+  matrix,
+  incrementArray,
+  colorize,
+  changeBgColor,
+  checkFib,
+  removeCellValues,
+}

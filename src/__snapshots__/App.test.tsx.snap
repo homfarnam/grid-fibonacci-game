@@ -2,7 +2,7 @@
 
 exports[`snapshot test expect the game works after reset  1`] = `
 <div
-  className="w-full min-h-screen text-white bg-black"
+  className="w-full h-full min-h-screen text-white bg-black"
 >
   <div
     className="container flex justify-center items-center mx-auto w-full"
@@ -16,7 +16,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
     />
   </div>
   <div
-    className="flex justify-center items-center my-10 w-full h-auto"
+    className="flex justify-center items-center my-10 w-full h-full"
   >
     <table
       className="text-white border"
@@ -878,7 +878,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
 
 exports[`snapshot test snapshot test Home page 1`] = `
 <div
-  className="w-full min-h-screen text-white bg-black"
+  className="w-full h-full min-h-screen text-white bg-black"
 >
   <div
     className="container flex justify-center items-center mx-auto w-full"
@@ -892,7 +892,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
     />
   </div>
   <div
-    className="flex justify-center items-center my-10 w-full h-auto"
+    className="flex justify-center items-center my-10 w-full h-full"
   >
     <table
       className="text-white border"
@@ -1754,7 +1754,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
 
 exports[`snapshot test test click on 5 cell and make it green and expect to be empty 1`] = `
 <div
-  className="w-full min-h-screen text-white bg-black"
+  className="w-full h-full min-h-screen text-white bg-black"
 >
   <div
     className="container flex justify-center items-center mx-auto w-full"
@@ -1768,7 +1768,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
     />
   </div>
   <div
-    className="flex justify-center items-center my-10 w-full h-auto"
+    className="flex justify-center items-center my-10 w-full h-full"
   >
     <table
       className="text-white border"
@@ -2630,7 +2630,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
 
 exports[`snapshot test test click on one cell and make it yellow 1`] = `
 <div
-  className="w-full min-h-screen text-white bg-black"
+  className="w-full h-full min-h-screen text-white bg-black"
 >
   <div
     className="container flex justify-center items-center mx-auto w-full"
@@ -2644,7 +2644,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
     />
   </div>
   <div
-    className="flex justify-center items-center my-10 w-full h-auto"
+    className="flex justify-center items-center my-10 w-full h-full"
   >
     <table
       className="text-white border"
@@ -3506,7 +3506,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
 
 exports[`snapshot test test click on reset button and expect empty table  1`] = `
 <div
-  className="w-full min-h-screen text-white bg-black"
+  className="w-full h-full min-h-screen text-white bg-black"
 >
   <div
     className="container flex justify-center items-center mx-auto w-full"
@@ -3520,7 +3520,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
     />
   </div>
   <div
-    className="flex justify-center items-center my-10 w-full h-auto"
+    className="flex justify-center items-center my-10 w-full h-full"
   >
     <table
       className="text-white border"

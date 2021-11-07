@@ -1,3 +1,4 @@
+import { Button } from "components"
 import React, { useEffect, useState } from "react"
 import {
   changeBgColor,
@@ -5,10 +6,17 @@ import {
   colorize,
   incrementArray,
   matrix,
+  removeCellValues,
 } from "utils/utils"
 
-const App: React.FC = () => {
-  const [mainTable, setMainTable] = useState<number[][]>(matrix(10, 10, 0))
+interface AppProps {
+  defaultSize?: number
+}
+
+const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
+  const [mainTable, setMainTable] = useState<number[][]>(
+    matrix(defaultSize, defaultSize, 0)
+  )
 
   const clickCell = (
     e: React.MouseEvent<HTMLTableCellElement>,
@@ -19,39 +27,12 @@ const App: React.FC = () => {
   }
 
   const resetGame = () => {
-    setMainTable(matrix(10, 10, 0))
+    setMainTable(matrix(defaultSize, defaultSize, 0))
 
     const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
 
     cells.forEach((cell) => {
       cell.className = "p-5 border cursor-pointer cell"
-    })
-  }
-
-  const removeCellValues = ({
-    col_start,
-    col_end,
-    row,
-  }: {
-    col_start: number
-    col_end: number
-    row: number
-  }) => {
-    for (let i = col_start; i >= col_end; i--) {
-      setMainTable((prev) => {
-        const newTable = [...prev]
-        newTable[row][i] = 0
-        return newTable
-      })
-    }
-
-    const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
-
-    cells.forEach((cell) => {
-      let prevClasses = cell.className
-      prevClasses = prevClasses.replace("fade-colors-green", "")
-
-      cell.className = prevClasses
     })
   }
 
@@ -62,11 +43,16 @@ const App: React.FC = () => {
           checkFib({ row: i, col_start: j, col_end: j - 4, table: mainTable })
         ) {
           for (let k = 4; k >= 0; k--) {
-            changeBgColor(mainTable, i, j - k, "green")
+            changeBgColor(i, j - k, "green")
           }
 
           setTimeout(() => {
-            removeCellValues({ row: i, col_start: j, col_end: j - 4 })
+            removeCellValues({
+              row: i,
+              col_start: j,
+              col_end: j - 4,
+              setMainTable,
+            })
           }, 2000)
         }
       }
@@ -74,18 +60,22 @@ const App: React.FC = () => {
   }, [mainTable])
 
   return (
-    <div className="w-full min-h-screen text-white bg-black">
+    <div className="w-full h-full min-h-screen text-white bg-black">
       <div className="container flex justify-center items-center mx-auto w-full">
-        <button className="p-3 my-10 mx-5 border" onClick={resetGame}>
-          Reset the game
-        </button>
+        <Button
+          id="reset"
+          text="Reset the game"
+          className="p-3 my-10 mx-5 border"
+          onClick={resetGame}
+          variant="white"
+        />
       </div>
 
-      <div className="flex justify-center items-center my-10 w-full h-auto">
+      <div className="flex justify-center items-center my-10 w-full h-full">
         <table className="text-white border">
           {mainTable.map((row, i: number) => (
             <tr key={i} className="p-3">
-              {row.map((cell, j: number) => {
+              {row.map((_cell, j: number) => {
                 checkFib({
                   row: i,
                   col_start: j,
@@ -94,9 +84,9 @@ const App: React.FC = () => {
                 })
                 return (
                   <td
-                    className="p-5 border cursor-pointer cell"
-                    key={i * 10 + j}
-                    id={`cell-${i * 10 + j}`}
+                    className="p-5 border cursor-pointer cell w-"
+                    key={i * defaultSize + j}
+                    id={`cell-${i}-${j}`}
                     onClick={(e) => {
                       clickCell(e, i, j)
                     }}

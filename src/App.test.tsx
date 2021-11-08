@@ -5,7 +5,7 @@ import userEvent from "@testing-library/user-event"
 import App from "App"
 
 describe("Click tests", () => {
-  test("click on first and expect to be 1 in cell", async () => {
+  test("click on first cell and expect to be 1 in cell", async () => {
     render(<App />)
     const cell = screen.getByTestId("cell-0-0")
 
@@ -16,7 +16,7 @@ describe("Click tests", () => {
     })
   })
 
-  test("click on some cells and expect to get a Fibonacci in first row", async () => {
+  test("click on some cells and expect to get a Fibonacci pattern in first row", async () => {
     render(<App />)
     const cell = screen.getByTestId("cell-0-0")
     const cell2 = screen.getByTestId("cell-1-2")

@@ -5,8 +5,12 @@ exports[`snapshot test expect the game works after reset  1`] = `
   className="main"
 >
   <div
-    className="container flex justify-center items-center mx-auto w-full"
+    className="container flex flex-col justify-center items-center mx-auto w-full"
   >
+    <Title
+      className="my-10 font-mono text-2xl"
+      text="Grid Fibonacci Game"
+    />
     <Button
       className="p-3 my-10 mx-5 border"
       id="reset"
@@ -983,8 +987,12 @@ exports[`snapshot test snapshot test Home page 1`] = `
   className="main"
 >
   <div
-    className="container flex justify-center items-center mx-auto w-full"
+    className="container flex flex-col justify-center items-center mx-auto w-full"
   >
+    <Title
+      className="my-10 font-mono text-2xl"
+      text="Grid Fibonacci Game"
+    />
     <Button
       className="p-3 my-10 mx-5 border"
       id="reset"
@@ -1961,8 +1969,12 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
   className="main"
 >
   <div
-    className="container flex justify-center items-center mx-auto w-full"
+    className="container flex flex-col justify-center items-center mx-auto w-full"
   >
+    <Title
+      className="my-10 font-mono text-2xl"
+      text="Grid Fibonacci Game"
+    />
     <Button
       className="p-3 my-10 mx-5 border"
       id="reset"
@@ -2939,8 +2951,12 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
   className="main"
 >
   <div
-    className="container flex justify-center items-center mx-auto w-full"
+    className="container flex flex-col justify-center items-center mx-auto w-full"
   >
+    <Title
+      className="my-10 font-mono text-2xl"
+      text="Grid Fibonacci Game"
+    />
     <Button
       className="p-3 my-10 mx-5 border"
       id="reset"
@@ -3917,8 +3933,12 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
   className="main"
 >
   <div
-    className="container flex justify-center items-center mx-auto w-full"
+    className="container flex flex-col justify-center items-center mx-auto w-full"
   >
+    <Title
+      className="my-10 font-mono text-2xl"
+      text="Grid Fibonacci Game"
+    />
     <Button
       className="p-3 my-10 mx-5 border"
       id="reset"

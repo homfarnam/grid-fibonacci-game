@@ -1,9 +1,9 @@
 import React from "react"
-import { cleanup, render, screen } from "@testing-library/react"
-import App from "./App"
+import { cleanup } from "@testing-library/react"
 import Enzyme, { shallow } from "enzyme"
 import Adapter from "@wojtekmaj/enzyme-adapter-react-17"
 import toJson from "enzyme-to-json"
+import App from "./App"
 import { Button } from "components"
 
 Enzyme.configure({ adapter: new Adapter() })

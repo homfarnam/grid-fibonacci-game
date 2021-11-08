@@ -27,7 +27,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="0"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-0"
             id="cell-0-0"
             key="0"
@@ -36,7 +36,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-1"
             id="cell-0-1"
             key="1"
@@ -45,7 +45,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-2"
             id="cell-0-2"
             key="2"
@@ -54,7 +54,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-3"
             id="cell-0-3"
             key="3"
@@ -63,7 +63,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-4"
             id="cell-0-4"
             key="4"
@@ -72,7 +72,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-5"
             id="cell-0-5"
             key="5"
@@ -81,7 +81,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-6"
             id="cell-0-6"
             key="6"
@@ -90,7 +90,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-7"
             id="cell-0-7"
             key="7"
@@ -99,7 +99,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-8"
             id="cell-0-8"
             key="8"
@@ -108,7 +108,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-9"
             id="cell-0-9"
             key="9"
@@ -122,7 +122,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="1"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-0"
             id="cell-1-0"
             key="10"
@@ -131,7 +131,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-1"
             id="cell-1-1"
             key="11"
@@ -140,7 +140,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-2"
             id="cell-1-2"
             key="12"
@@ -149,7 +149,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-3"
             id="cell-1-3"
             key="13"
@@ -158,7 +158,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-4"
             id="cell-1-4"
             key="14"
@@ -167,7 +167,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-5"
             id="cell-1-5"
             key="15"
@@ -176,7 +176,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-6"
             id="cell-1-6"
             key="16"
@@ -185,7 +185,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-7"
             id="cell-1-7"
             key="17"
@@ -194,7 +194,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-8"
             id="cell-1-8"
             key="18"
@@ -203,7 +203,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-9"
             id="cell-1-9"
             key="19"
@@ -217,7 +217,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="2"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-0"
             id="cell-2-0"
             key="20"
@@ -226,7 +226,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-1"
             id="cell-2-1"
             key="21"
@@ -235,7 +235,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-2"
             id="cell-2-2"
             key="22"
@@ -244,7 +244,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-3"
             id="cell-2-3"
             key="23"
@@ -253,7 +253,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-4"
             id="cell-2-4"
             key="24"
@@ -262,7 +262,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-5"
             id="cell-2-5"
             key="25"
@@ -271,7 +271,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-6"
             id="cell-2-6"
             key="26"
@@ -280,7 +280,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-7"
             id="cell-2-7"
             key="27"
@@ -289,7 +289,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-8"
             id="cell-2-8"
             key="28"
@@ -298,7 +298,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-9"
             id="cell-2-9"
             key="29"
@@ -312,7 +312,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="3"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-0"
             id="cell-3-0"
             key="30"
@@ -321,7 +321,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-1"
             id="cell-3-1"
             key="31"
@@ -330,7 +330,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-2"
             id="cell-3-2"
             key="32"
@@ -339,7 +339,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-3"
             id="cell-3-3"
             key="33"
@@ -348,7 +348,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-4"
             id="cell-3-4"
             key="34"
@@ -357,7 +357,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-5"
             id="cell-3-5"
             key="35"
@@ -366,7 +366,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-6"
             id="cell-3-6"
             key="36"
@@ -375,7 +375,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-7"
             id="cell-3-7"
             key="37"
@@ -384,7 +384,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-8"
             id="cell-3-8"
             key="38"
@@ -393,7 +393,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-9"
             id="cell-3-9"
             key="39"
@@ -407,7 +407,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="4"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-0"
             id="cell-4-0"
             key="40"
@@ -416,7 +416,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-1"
             id="cell-4-1"
             key="41"
@@ -425,7 +425,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-2"
             id="cell-4-2"
             key="42"
@@ -434,7 +434,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-3"
             id="cell-4-3"
             key="43"
@@ -443,7 +443,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-4"
             id="cell-4-4"
             key="44"
@@ -452,7 +452,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-5"
             id="cell-4-5"
             key="45"
@@ -461,7 +461,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-6"
             id="cell-4-6"
             key="46"
@@ -470,7 +470,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-7"
             id="cell-4-7"
             key="47"
@@ -479,7 +479,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-8"
             id="cell-4-8"
             key="48"
@@ -488,7 +488,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-9"
             id="cell-4-9"
             key="49"
@@ -502,7 +502,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="5"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-0"
             id="cell-5-0"
             key="50"
@@ -511,7 +511,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-1"
             id="cell-5-1"
             key="51"
@@ -520,7 +520,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-2"
             id="cell-5-2"
             key="52"
@@ -529,7 +529,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-3"
             id="cell-5-3"
             key="53"
@@ -538,7 +538,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-4"
             id="cell-5-4"
             key="54"
@@ -547,7 +547,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-5"
             id="cell-5-5"
             key="55"
@@ -556,7 +556,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-6"
             id="cell-5-6"
             key="56"
@@ -565,7 +565,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-7"
             id="cell-5-7"
             key="57"
@@ -574,7 +574,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-8"
             id="cell-5-8"
             key="58"
@@ -583,7 +583,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-9"
             id="cell-5-9"
             key="59"
@@ -597,7 +597,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="6"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-0"
             id="cell-6-0"
             key="60"
@@ -606,7 +606,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-1"
             id="cell-6-1"
             key="61"
@@ -615,7 +615,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-2"
             id="cell-6-2"
             key="62"
@@ -624,7 +624,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-3"
             id="cell-6-3"
             key="63"
@@ -633,7 +633,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-4"
             id="cell-6-4"
             key="64"
@@ -642,7 +642,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-5"
             id="cell-6-5"
             key="65"
@@ -651,7 +651,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-6"
             id="cell-6-6"
             key="66"
@@ -660,7 +660,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-7"
             id="cell-6-7"
             key="67"
@@ -669,7 +669,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-8"
             id="cell-6-8"
             key="68"
@@ -678,7 +678,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-9"
             id="cell-6-9"
             key="69"
@@ -692,7 +692,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="7"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-0"
             id="cell-7-0"
             key="70"
@@ -701,7 +701,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-1"
             id="cell-7-1"
             key="71"
@@ -710,7 +710,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-2"
             id="cell-7-2"
             key="72"
@@ -719,7 +719,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-3"
             id="cell-7-3"
             key="73"
@@ -728,7 +728,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-4"
             id="cell-7-4"
             key="74"
@@ -737,7 +737,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-5"
             id="cell-7-5"
             key="75"
@@ -746,7 +746,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-6"
             id="cell-7-6"
             key="76"
@@ -755,7 +755,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-7"
             id="cell-7-7"
             key="77"
@@ -764,7 +764,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-8"
             id="cell-7-8"
             key="78"
@@ -773,7 +773,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-9"
             id="cell-7-9"
             key="79"
@@ -787,7 +787,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="8"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-0"
             id="cell-8-0"
             key="80"
@@ -796,7 +796,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-1"
             id="cell-8-1"
             key="81"
@@ -805,7 +805,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-2"
             id="cell-8-2"
             key="82"
@@ -814,7 +814,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-3"
             id="cell-8-3"
             key="83"
@@ -823,7 +823,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-4"
             id="cell-8-4"
             key="84"
@@ -832,7 +832,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-5"
             id="cell-8-5"
             key="85"
@@ -841,7 +841,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-6"
             id="cell-8-6"
             key="86"
@@ -850,7 +850,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-7"
             id="cell-8-7"
             key="87"
@@ -859,7 +859,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-8"
             id="cell-8-8"
             key="88"
@@ -868,7 +868,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-9"
             id="cell-8-9"
             key="89"
@@ -882,7 +882,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
           key="9"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-0"
             id="cell-9-0"
             key="90"
@@ -891,7 +891,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-1"
             id="cell-9-1"
             key="91"
@@ -900,7 +900,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-2"
             id="cell-9-2"
             key="92"
@@ -909,7 +909,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-3"
             id="cell-9-3"
             key="93"
@@ -918,7 +918,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-4"
             id="cell-9-4"
             key="94"
@@ -927,7 +927,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-5"
             id="cell-9-5"
             key="95"
@@ -936,7 +936,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-6"
             id="cell-9-6"
             key="96"
@@ -945,7 +945,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-7"
             id="cell-9-7"
             key="97"
@@ -954,7 +954,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-8"
             id="cell-9-8"
             key="98"
@@ -963,7 +963,7 @@ exports[`snapshot test expect the game works after reset  1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-9"
             id="cell-9-9"
             key="99"
@@ -1005,7 +1005,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="0"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-0"
             id="cell-0-0"
             key="0"
@@ -1014,7 +1014,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-1"
             id="cell-0-1"
             key="1"
@@ -1023,7 +1023,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-2"
             id="cell-0-2"
             key="2"
@@ -1032,7 +1032,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-3"
             id="cell-0-3"
             key="3"
@@ -1041,7 +1041,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-4"
             id="cell-0-4"
             key="4"
@@ -1050,7 +1050,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-5"
             id="cell-0-5"
             key="5"
@@ -1059,7 +1059,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-6"
             id="cell-0-6"
             key="6"
@@ -1068,7 +1068,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-7"
             id="cell-0-7"
             key="7"
@@ -1077,7 +1077,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-8"
             id="cell-0-8"
             key="8"
@@ -1086,7 +1086,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-9"
             id="cell-0-9"
             key="9"
@@ -1100,7 +1100,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="1"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-0"
             id="cell-1-0"
             key="10"
@@ -1109,7 +1109,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-1"
             id="cell-1-1"
             key="11"
@@ -1118,7 +1118,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-2"
             id="cell-1-2"
             key="12"
@@ -1127,7 +1127,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-3"
             id="cell-1-3"
             key="13"
@@ -1136,7 +1136,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-4"
             id="cell-1-4"
             key="14"
@@ -1145,7 +1145,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-5"
             id="cell-1-5"
             key="15"
@@ -1154,7 +1154,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-6"
             id="cell-1-6"
             key="16"
@@ -1163,7 +1163,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-7"
             id="cell-1-7"
             key="17"
@@ -1172,7 +1172,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-8"
             id="cell-1-8"
             key="18"
@@ -1181,7 +1181,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-9"
             id="cell-1-9"
             key="19"
@@ -1195,7 +1195,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="2"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-0"
             id="cell-2-0"
             key="20"
@@ -1204,7 +1204,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-1"
             id="cell-2-1"
             key="21"
@@ -1213,7 +1213,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-2"
             id="cell-2-2"
             key="22"
@@ -1222,7 +1222,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-3"
             id="cell-2-3"
             key="23"
@@ -1231,7 +1231,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-4"
             id="cell-2-4"
             key="24"
@@ -1240,7 +1240,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-5"
             id="cell-2-5"
             key="25"
@@ -1249,7 +1249,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-6"
             id="cell-2-6"
             key="26"
@@ -1258,7 +1258,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-7"
             id="cell-2-7"
             key="27"
@@ -1267,7 +1267,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-8"
             id="cell-2-8"
             key="28"
@@ -1276,7 +1276,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-9"
             id="cell-2-9"
             key="29"
@@ -1290,7 +1290,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="3"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-0"
             id="cell-3-0"
             key="30"
@@ -1299,7 +1299,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-1"
             id="cell-3-1"
             key="31"
@@ -1308,7 +1308,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-2"
             id="cell-3-2"
             key="32"
@@ -1317,7 +1317,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-3"
             id="cell-3-3"
             key="33"
@@ -1326,7 +1326,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-4"
             id="cell-3-4"
             key="34"
@@ -1335,7 +1335,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-5"
             id="cell-3-5"
             key="35"
@@ -1344,7 +1344,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-6"
             id="cell-3-6"
             key="36"
@@ -1353,7 +1353,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-7"
             id="cell-3-7"
             key="37"
@@ -1362,7 +1362,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-8"
             id="cell-3-8"
             key="38"
@@ -1371,7 +1371,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-9"
             id="cell-3-9"
             key="39"
@@ -1385,7 +1385,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="4"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-0"
             id="cell-4-0"
             key="40"
@@ -1394,7 +1394,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-1"
             id="cell-4-1"
             key="41"
@@ -1403,7 +1403,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-2"
             id="cell-4-2"
             key="42"
@@ -1412,7 +1412,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-3"
             id="cell-4-3"
             key="43"
@@ -1421,7 +1421,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-4"
             id="cell-4-4"
             key="44"
@@ -1430,7 +1430,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-5"
             id="cell-4-5"
             key="45"
@@ -1439,7 +1439,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-6"
             id="cell-4-6"
             key="46"
@@ -1448,7 +1448,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-7"
             id="cell-4-7"
             key="47"
@@ -1457,7 +1457,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-8"
             id="cell-4-8"
             key="48"
@@ -1466,7 +1466,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-9"
             id="cell-4-9"
             key="49"
@@ -1480,7 +1480,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="5"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-0"
             id="cell-5-0"
             key="50"
@@ -1489,7 +1489,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-1"
             id="cell-5-1"
             key="51"
@@ -1498,7 +1498,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-2"
             id="cell-5-2"
             key="52"
@@ -1507,7 +1507,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-3"
             id="cell-5-3"
             key="53"
@@ -1516,7 +1516,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-4"
             id="cell-5-4"
             key="54"
@@ -1525,7 +1525,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-5"
             id="cell-5-5"
             key="55"
@@ -1534,7 +1534,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-6"
             id="cell-5-6"
             key="56"
@@ -1543,7 +1543,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-7"
             id="cell-5-7"
             key="57"
@@ -1552,7 +1552,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-8"
             id="cell-5-8"
             key="58"
@@ -1561,7 +1561,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-9"
             id="cell-5-9"
             key="59"
@@ -1575,7 +1575,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="6"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-0"
             id="cell-6-0"
             key="60"
@@ -1584,7 +1584,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-1"
             id="cell-6-1"
             key="61"
@@ -1593,7 +1593,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-2"
             id="cell-6-2"
             key="62"
@@ -1602,7 +1602,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-3"
             id="cell-6-3"
             key="63"
@@ -1611,7 +1611,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-4"
             id="cell-6-4"
             key="64"
@@ -1620,7 +1620,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-5"
             id="cell-6-5"
             key="65"
@@ -1629,7 +1629,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-6"
             id="cell-6-6"
             key="66"
@@ -1638,7 +1638,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-7"
             id="cell-6-7"
             key="67"
@@ -1647,7 +1647,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-8"
             id="cell-6-8"
             key="68"
@@ -1656,7 +1656,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-9"
             id="cell-6-9"
             key="69"
@@ -1670,7 +1670,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="7"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-0"
             id="cell-7-0"
             key="70"
@@ -1679,7 +1679,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-1"
             id="cell-7-1"
             key="71"
@@ -1688,7 +1688,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-2"
             id="cell-7-2"
             key="72"
@@ -1697,7 +1697,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-3"
             id="cell-7-3"
             key="73"
@@ -1706,7 +1706,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-4"
             id="cell-7-4"
             key="74"
@@ -1715,7 +1715,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-5"
             id="cell-7-5"
             key="75"
@@ -1724,7 +1724,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-6"
             id="cell-7-6"
             key="76"
@@ -1733,7 +1733,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-7"
             id="cell-7-7"
             key="77"
@@ -1742,7 +1742,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-8"
             id="cell-7-8"
             key="78"
@@ -1751,7 +1751,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-9"
             id="cell-7-9"
             key="79"
@@ -1765,7 +1765,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="8"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-0"
             id="cell-8-0"
             key="80"
@@ -1774,7 +1774,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-1"
             id="cell-8-1"
             key="81"
@@ -1783,7 +1783,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-2"
             id="cell-8-2"
             key="82"
@@ -1792,7 +1792,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-3"
             id="cell-8-3"
             key="83"
@@ -1801,7 +1801,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-4"
             id="cell-8-4"
             key="84"
@@ -1810,7 +1810,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-5"
             id="cell-8-5"
             key="85"
@@ -1819,7 +1819,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-6"
             id="cell-8-6"
             key="86"
@@ -1828,7 +1828,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-7"
             id="cell-8-7"
             key="87"
@@ -1837,7 +1837,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-8"
             id="cell-8-8"
             key="88"
@@ -1846,7 +1846,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-9"
             id="cell-8-9"
             key="89"
@@ -1860,7 +1860,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
           key="9"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-0"
             id="cell-9-0"
             key="90"
@@ -1869,7 +1869,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-1"
             id="cell-9-1"
             key="91"
@@ -1878,7 +1878,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-2"
             id="cell-9-2"
             key="92"
@@ -1887,7 +1887,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-3"
             id="cell-9-3"
             key="93"
@@ -1896,7 +1896,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-4"
             id="cell-9-4"
             key="94"
@@ -1905,7 +1905,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-5"
             id="cell-9-5"
             key="95"
@@ -1914,7 +1914,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-6"
             id="cell-9-6"
             key="96"
@@ -1923,7 +1923,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-7"
             id="cell-9-7"
             key="97"
@@ -1932,7 +1932,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-8"
             id="cell-9-8"
             key="98"
@@ -1941,7 +1941,7 @@ exports[`snapshot test snapshot test Home page 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-9"
             id="cell-9-9"
             key="99"
@@ -1983,7 +1983,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="0"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-0"
             id="cell-0-0"
             key="0"
@@ -1992,7 +1992,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-1"
             id="cell-0-1"
             key="1"
@@ -2001,7 +2001,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-2"
             id="cell-0-2"
             key="2"
@@ -2010,7 +2010,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-3"
             id="cell-0-3"
             key="3"
@@ -2019,7 +2019,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             3
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-4"
             id="cell-0-4"
             key="4"
@@ -2028,7 +2028,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             5
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-5"
             id="cell-0-5"
             key="5"
@@ -2037,7 +2037,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-6"
             id="cell-0-6"
             key="6"
@@ -2046,7 +2046,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-7"
             id="cell-0-7"
             key="7"
@@ -2055,7 +2055,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-8"
             id="cell-0-8"
             key="8"
@@ -2064,7 +2064,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-9"
             id="cell-0-9"
             key="9"
@@ -2078,7 +2078,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="1"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-0"
             id="cell-1-0"
             key="10"
@@ -2087,7 +2087,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             8
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-1"
             id="cell-1-1"
             key="11"
@@ -2096,7 +2096,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-2"
             id="cell-1-2"
             key="12"
@@ -2105,7 +2105,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-3"
             id="cell-1-3"
             key="13"
@@ -2114,7 +2114,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-4"
             id="cell-1-4"
             key="14"
@@ -2123,7 +2123,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-5"
             id="cell-1-5"
             key="15"
@@ -2132,7 +2132,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-6"
             id="cell-1-6"
             key="16"
@@ -2141,7 +2141,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-7"
             id="cell-1-7"
             key="17"
@@ -2150,7 +2150,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-8"
             id="cell-1-8"
             key="18"
@@ -2159,7 +2159,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             7
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-9"
             id="cell-1-9"
             key="19"
@@ -2173,7 +2173,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="2"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-0"
             id="cell-2-0"
             key="20"
@@ -2182,7 +2182,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-1"
             id="cell-2-1"
             key="21"
@@ -2191,7 +2191,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-2"
             id="cell-2-2"
             key="22"
@@ -2200,7 +2200,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-3"
             id="cell-2-3"
             key="23"
@@ -2209,7 +2209,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-4"
             id="cell-2-4"
             key="24"
@@ -2218,7 +2218,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-5"
             id="cell-2-5"
             key="25"
@@ -2227,7 +2227,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-6"
             id="cell-2-6"
             key="26"
@@ -2236,7 +2236,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-7"
             id="cell-2-7"
             key="27"
@@ -2245,7 +2245,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-8"
             id="cell-2-8"
             key="28"
@@ -2254,7 +2254,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-9"
             id="cell-2-9"
             key="29"
@@ -2268,7 +2268,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="3"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-0"
             id="cell-3-0"
             key="30"
@@ -2277,7 +2277,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-1"
             id="cell-3-1"
             key="31"
@@ -2286,7 +2286,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-2"
             id="cell-3-2"
             key="32"
@@ -2295,7 +2295,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-3"
             id="cell-3-3"
             key="33"
@@ -2304,7 +2304,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-4"
             id="cell-3-4"
             key="34"
@@ -2313,7 +2313,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-5"
             id="cell-3-5"
             key="35"
@@ -2322,7 +2322,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-6"
             id="cell-3-6"
             key="36"
@@ -2331,7 +2331,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-7"
             id="cell-3-7"
             key="37"
@@ -2340,7 +2340,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-8"
             id="cell-3-8"
             key="38"
@@ -2349,7 +2349,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-9"
             id="cell-3-9"
             key="39"
@@ -2363,7 +2363,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="4"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-0"
             id="cell-4-0"
             key="40"
@@ -2372,7 +2372,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-1"
             id="cell-4-1"
             key="41"
@@ -2381,7 +2381,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-2"
             id="cell-4-2"
             key="42"
@@ -2390,7 +2390,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-3"
             id="cell-4-3"
             key="43"
@@ -2399,7 +2399,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-4"
             id="cell-4-4"
             key="44"
@@ -2408,7 +2408,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-5"
             id="cell-4-5"
             key="45"
@@ -2417,7 +2417,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-6"
             id="cell-4-6"
             key="46"
@@ -2426,7 +2426,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-7"
             id="cell-4-7"
             key="47"
@@ -2435,7 +2435,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-8"
             id="cell-4-8"
             key="48"
@@ -2444,7 +2444,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-9"
             id="cell-4-9"
             key="49"
@@ -2458,7 +2458,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="5"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-0"
             id="cell-5-0"
             key="50"
@@ -2467,7 +2467,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-1"
             id="cell-5-1"
             key="51"
@@ -2476,7 +2476,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-2"
             id="cell-5-2"
             key="52"
@@ -2485,7 +2485,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-3"
             id="cell-5-3"
             key="53"
@@ -2494,7 +2494,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-4"
             id="cell-5-4"
             key="54"
@@ -2503,7 +2503,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-5"
             id="cell-5-5"
             key="55"
@@ -2512,7 +2512,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-6"
             id="cell-5-6"
             key="56"
@@ -2521,7 +2521,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-7"
             id="cell-5-7"
             key="57"
@@ -2530,7 +2530,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-8"
             id="cell-5-8"
             key="58"
@@ -2539,7 +2539,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-9"
             id="cell-5-9"
             key="59"
@@ -2553,7 +2553,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="6"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-0"
             id="cell-6-0"
             key="60"
@@ -2562,7 +2562,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-1"
             id="cell-6-1"
             key="61"
@@ -2571,7 +2571,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-2"
             id="cell-6-2"
             key="62"
@@ -2580,7 +2580,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-3"
             id="cell-6-3"
             key="63"
@@ -2589,7 +2589,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-4"
             id="cell-6-4"
             key="64"
@@ -2598,7 +2598,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-5"
             id="cell-6-5"
             key="65"
@@ -2607,7 +2607,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-6"
             id="cell-6-6"
             key="66"
@@ -2616,7 +2616,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-7"
             id="cell-6-7"
             key="67"
@@ -2625,7 +2625,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-8"
             id="cell-6-8"
             key="68"
@@ -2634,7 +2634,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-9"
             id="cell-6-9"
             key="69"
@@ -2648,7 +2648,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="7"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-0"
             id="cell-7-0"
             key="70"
@@ -2657,7 +2657,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-1"
             id="cell-7-1"
             key="71"
@@ -2666,7 +2666,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-2"
             id="cell-7-2"
             key="72"
@@ -2675,7 +2675,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-3"
             id="cell-7-3"
             key="73"
@@ -2684,7 +2684,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-4"
             id="cell-7-4"
             key="74"
@@ -2693,7 +2693,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-5"
             id="cell-7-5"
             key="75"
@@ -2702,7 +2702,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-6"
             id="cell-7-6"
             key="76"
@@ -2711,7 +2711,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-7"
             id="cell-7-7"
             key="77"
@@ -2720,7 +2720,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-8"
             id="cell-7-8"
             key="78"
@@ -2729,7 +2729,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-9"
             id="cell-7-9"
             key="79"
@@ -2743,7 +2743,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="8"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-0"
             id="cell-8-0"
             key="80"
@@ -2752,7 +2752,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-1"
             id="cell-8-1"
             key="81"
@@ -2761,7 +2761,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-2"
             id="cell-8-2"
             key="82"
@@ -2770,7 +2770,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-3"
             id="cell-8-3"
             key="83"
@@ -2779,7 +2779,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-4"
             id="cell-8-4"
             key="84"
@@ -2788,7 +2788,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-5"
             id="cell-8-5"
             key="85"
@@ -2797,7 +2797,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-6"
             id="cell-8-6"
             key="86"
@@ -2806,7 +2806,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-7"
             id="cell-8-7"
             key="87"
@@ -2815,7 +2815,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-8"
             id="cell-8-8"
             key="88"
@@ -2824,7 +2824,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-9"
             id="cell-8-9"
             key="89"
@@ -2838,7 +2838,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
           key="9"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-0"
             id="cell-9-0"
             key="90"
@@ -2847,7 +2847,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-1"
             id="cell-9-1"
             key="91"
@@ -2856,7 +2856,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-2"
             id="cell-9-2"
             key="92"
@@ -2865,7 +2865,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-3"
             id="cell-9-3"
             key="93"
@@ -2874,7 +2874,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             2
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-4"
             id="cell-9-4"
             key="94"
@@ -2883,7 +2883,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             4
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-5"
             id="cell-9-5"
             key="95"
@@ -2892,7 +2892,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-6"
             id="cell-9-6"
             key="96"
@@ -2901,7 +2901,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-7"
             id="cell-9-7"
             key="97"
@@ -2910,7 +2910,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-8"
             id="cell-9-8"
             key="98"
@@ -2919,7 +2919,7 @@ exports[`snapshot test test click on 5 cell and make it green and expect to be e
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-9"
             id="cell-9-9"
             key="99"
@@ -2961,7 +2961,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="0"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-0"
             id="cell-0-0"
             key="0"
@@ -2970,7 +2970,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-1"
             id="cell-0-1"
             key="1"
@@ -2979,7 +2979,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-2"
             id="cell-0-2"
             key="2"
@@ -2988,7 +2988,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-3"
             id="cell-0-3"
             key="3"
@@ -2997,7 +2997,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-4"
             id="cell-0-4"
             key="4"
@@ -3006,7 +3006,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-5"
             id="cell-0-5"
             key="5"
@@ -3015,7 +3015,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-6"
             id="cell-0-6"
             key="6"
@@ -3024,7 +3024,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-7"
             id="cell-0-7"
             key="7"
@@ -3033,7 +3033,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-8"
             id="cell-0-8"
             key="8"
@@ -3042,7 +3042,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-9"
             id="cell-0-9"
             key="9"
@@ -3056,7 +3056,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="1"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-0"
             id="cell-1-0"
             key="10"
@@ -3065,7 +3065,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-1"
             id="cell-1-1"
             key="11"
@@ -3074,7 +3074,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-2"
             id="cell-1-2"
             key="12"
@@ -3083,7 +3083,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-3"
             id="cell-1-3"
             key="13"
@@ -3092,7 +3092,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-4"
             id="cell-1-4"
             key="14"
@@ -3101,7 +3101,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-5"
             id="cell-1-5"
             key="15"
@@ -3110,7 +3110,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-6"
             id="cell-1-6"
             key="16"
@@ -3119,7 +3119,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-7"
             id="cell-1-7"
             key="17"
@@ -3128,7 +3128,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-8"
             id="cell-1-8"
             key="18"
@@ -3137,7 +3137,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-9"
             id="cell-1-9"
             key="19"
@@ -3151,7 +3151,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="2"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-0"
             id="cell-2-0"
             key="20"
@@ -3160,7 +3160,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-1"
             id="cell-2-1"
             key="21"
@@ -3169,7 +3169,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-2"
             id="cell-2-2"
             key="22"
@@ -3178,7 +3178,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-3"
             id="cell-2-3"
             key="23"
@@ -3187,7 +3187,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-4"
             id="cell-2-4"
             key="24"
@@ -3196,7 +3196,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-5"
             id="cell-2-5"
             key="25"
@@ -3205,7 +3205,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-6"
             id="cell-2-6"
             key="26"
@@ -3214,7 +3214,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-7"
             id="cell-2-7"
             key="27"
@@ -3223,7 +3223,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-8"
             id="cell-2-8"
             key="28"
@@ -3232,7 +3232,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-9"
             id="cell-2-9"
             key="29"
@@ -3246,7 +3246,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="3"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-0"
             id="cell-3-0"
             key="30"
@@ -3255,7 +3255,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-1"
             id="cell-3-1"
             key="31"
@@ -3264,7 +3264,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-2"
             id="cell-3-2"
             key="32"
@@ -3273,7 +3273,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-3"
             id="cell-3-3"
             key="33"
@@ -3282,7 +3282,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-4"
             id="cell-3-4"
             key="34"
@@ -3291,7 +3291,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-5"
             id="cell-3-5"
             key="35"
@@ -3300,7 +3300,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-6"
             id="cell-3-6"
             key="36"
@@ -3309,7 +3309,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-7"
             id="cell-3-7"
             key="37"
@@ -3318,7 +3318,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-8"
             id="cell-3-8"
             key="38"
@@ -3327,7 +3327,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-9"
             id="cell-3-9"
             key="39"
@@ -3341,7 +3341,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="4"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-0"
             id="cell-4-0"
             key="40"
@@ -3350,7 +3350,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-1"
             id="cell-4-1"
             key="41"
@@ -3359,7 +3359,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-2"
             id="cell-4-2"
             key="42"
@@ -3368,7 +3368,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-3"
             id="cell-4-3"
             key="43"
@@ -3377,7 +3377,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-4"
             id="cell-4-4"
             key="44"
@@ -3386,7 +3386,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-5"
             id="cell-4-5"
             key="45"
@@ -3395,7 +3395,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-6"
             id="cell-4-6"
             key="46"
@@ -3404,7 +3404,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-7"
             id="cell-4-7"
             key="47"
@@ -3413,7 +3413,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-8"
             id="cell-4-8"
             key="48"
@@ -3422,7 +3422,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-9"
             id="cell-4-9"
             key="49"
@@ -3436,7 +3436,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="5"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-0"
             id="cell-5-0"
             key="50"
@@ -3445,7 +3445,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-1"
             id="cell-5-1"
             key="51"
@@ -3454,7 +3454,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-2"
             id="cell-5-2"
             key="52"
@@ -3463,7 +3463,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-3"
             id="cell-5-3"
             key="53"
@@ -3472,7 +3472,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-4"
             id="cell-5-4"
             key="54"
@@ -3481,7 +3481,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-5"
             id="cell-5-5"
             key="55"
@@ -3490,7 +3490,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-6"
             id="cell-5-6"
             key="56"
@@ -3499,7 +3499,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-7"
             id="cell-5-7"
             key="57"
@@ -3508,7 +3508,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-8"
             id="cell-5-8"
             key="58"
@@ -3517,7 +3517,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-9"
             id="cell-5-9"
             key="59"
@@ -3531,7 +3531,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="6"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-0"
             id="cell-6-0"
             key="60"
@@ -3540,7 +3540,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-1"
             id="cell-6-1"
             key="61"
@@ -3549,7 +3549,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-2"
             id="cell-6-2"
             key="62"
@@ -3558,7 +3558,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-3"
             id="cell-6-3"
             key="63"
@@ -3567,7 +3567,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-4"
             id="cell-6-4"
             key="64"
@@ -3576,7 +3576,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-5"
             id="cell-6-5"
             key="65"
@@ -3585,7 +3585,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-6"
             id="cell-6-6"
             key="66"
@@ -3594,7 +3594,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-7"
             id="cell-6-7"
             key="67"
@@ -3603,7 +3603,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-8"
             id="cell-6-8"
             key="68"
@@ -3612,7 +3612,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-9"
             id="cell-6-9"
             key="69"
@@ -3626,7 +3626,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="7"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-0"
             id="cell-7-0"
             key="70"
@@ -3635,7 +3635,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-1"
             id="cell-7-1"
             key="71"
@@ -3644,7 +3644,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-2"
             id="cell-7-2"
             key="72"
@@ -3653,7 +3653,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-3"
             id="cell-7-3"
             key="73"
@@ -3662,7 +3662,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-4"
             id="cell-7-4"
             key="74"
@@ -3671,7 +3671,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-5"
             id="cell-7-5"
             key="75"
@@ -3680,7 +3680,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-6"
             id="cell-7-6"
             key="76"
@@ -3689,7 +3689,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-7"
             id="cell-7-7"
             key="77"
@@ -3698,7 +3698,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-8"
             id="cell-7-8"
             key="78"
@@ -3707,7 +3707,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-9"
             id="cell-7-9"
             key="79"
@@ -3721,7 +3721,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="8"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-0"
             id="cell-8-0"
             key="80"
@@ -3730,7 +3730,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-1"
             id="cell-8-1"
             key="81"
@@ -3739,7 +3739,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-2"
             id="cell-8-2"
             key="82"
@@ -3748,7 +3748,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-3"
             id="cell-8-3"
             key="83"
@@ -3757,7 +3757,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-4"
             id="cell-8-4"
             key="84"
@@ -3766,7 +3766,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-5"
             id="cell-8-5"
             key="85"
@@ -3775,7 +3775,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-6"
             id="cell-8-6"
             key="86"
@@ -3784,7 +3784,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-7"
             id="cell-8-7"
             key="87"
@@ -3793,7 +3793,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-8"
             id="cell-8-8"
             key="88"
@@ -3802,7 +3802,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-9"
             id="cell-8-9"
             key="89"
@@ -3816,7 +3816,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
           key="9"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-0"
             id="cell-9-0"
             key="90"
@@ -3825,7 +3825,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             1
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-1"
             id="cell-9-1"
             key="91"
@@ -3834,7 +3834,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-2"
             id="cell-9-2"
             key="92"
@@ -3843,7 +3843,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-3"
             id="cell-9-3"
             key="93"
@@ -3852,7 +3852,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-4"
             id="cell-9-4"
             key="94"
@@ -3861,7 +3861,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-5"
             id="cell-9-5"
             key="95"
@@ -3870,7 +3870,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-6"
             id="cell-9-6"
             key="96"
@@ -3879,7 +3879,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-7"
             id="cell-9-7"
             key="97"
@@ -3888,7 +3888,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-8"
             id="cell-9-8"
             key="98"
@@ -3897,7 +3897,7 @@ exports[`snapshot test test click on one cell and make it yellow 1`] = `
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-9"
             id="cell-9-9"
             key="99"
@@ -3939,7 +3939,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="0"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-0"
             id="cell-0-0"
             key="0"
@@ -3948,7 +3948,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-1"
             id="cell-0-1"
             key="1"
@@ -3957,7 +3957,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-2"
             id="cell-0-2"
             key="2"
@@ -3966,7 +3966,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-3"
             id="cell-0-3"
             key="3"
@@ -3975,7 +3975,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-4"
             id="cell-0-4"
             key="4"
@@ -3984,7 +3984,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-5"
             id="cell-0-5"
             key="5"
@@ -3993,7 +3993,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-6"
             id="cell-0-6"
             key="6"
@@ -4002,7 +4002,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-7"
             id="cell-0-7"
             key="7"
@@ -4011,7 +4011,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-8"
             id="cell-0-8"
             key="8"
@@ -4020,7 +4020,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-0-9"
             id="cell-0-9"
             key="9"
@@ -4034,7 +4034,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="1"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-0"
             id="cell-1-0"
             key="10"
@@ -4043,7 +4043,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-1"
             id="cell-1-1"
             key="11"
@@ -4052,7 +4052,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-2"
             id="cell-1-2"
             key="12"
@@ -4061,7 +4061,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-3"
             id="cell-1-3"
             key="13"
@@ -4070,7 +4070,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-4"
             id="cell-1-4"
             key="14"
@@ -4079,7 +4079,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-5"
             id="cell-1-5"
             key="15"
@@ -4088,7 +4088,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-6"
             id="cell-1-6"
             key="16"
@@ -4097,7 +4097,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-7"
             id="cell-1-7"
             key="17"
@@ -4106,7 +4106,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-8"
             id="cell-1-8"
             key="18"
@@ -4115,7 +4115,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-1-9"
             id="cell-1-9"
             key="19"
@@ -4129,7 +4129,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="2"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-0"
             id="cell-2-0"
             key="20"
@@ -4138,7 +4138,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-1"
             id="cell-2-1"
             key="21"
@@ -4147,7 +4147,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-2"
             id="cell-2-2"
             key="22"
@@ -4156,7 +4156,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-3"
             id="cell-2-3"
             key="23"
@@ -4165,7 +4165,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-4"
             id="cell-2-4"
             key="24"
@@ -4174,7 +4174,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-5"
             id="cell-2-5"
             key="25"
@@ -4183,7 +4183,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-6"
             id="cell-2-6"
             key="26"
@@ -4192,7 +4192,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-7"
             id="cell-2-7"
             key="27"
@@ -4201,7 +4201,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-8"
             id="cell-2-8"
             key="28"
@@ -4210,7 +4210,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-2-9"
             id="cell-2-9"
             key="29"
@@ -4224,7 +4224,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="3"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-0"
             id="cell-3-0"
             key="30"
@@ -4233,7 +4233,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-1"
             id="cell-3-1"
             key="31"
@@ -4242,7 +4242,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-2"
             id="cell-3-2"
             key="32"
@@ -4251,7 +4251,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-3"
             id="cell-3-3"
             key="33"
@@ -4260,7 +4260,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-4"
             id="cell-3-4"
             key="34"
@@ -4269,7 +4269,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-5"
             id="cell-3-5"
             key="35"
@@ -4278,7 +4278,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-6"
             id="cell-3-6"
             key="36"
@@ -4287,7 +4287,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-7"
             id="cell-3-7"
             key="37"
@@ -4296,7 +4296,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-8"
             id="cell-3-8"
             key="38"
@@ -4305,7 +4305,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-3-9"
             id="cell-3-9"
             key="39"
@@ -4319,7 +4319,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="4"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-0"
             id="cell-4-0"
             key="40"
@@ -4328,7 +4328,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-1"
             id="cell-4-1"
             key="41"
@@ -4337,7 +4337,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-2"
             id="cell-4-2"
             key="42"
@@ -4346,7 +4346,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-3"
             id="cell-4-3"
             key="43"
@@ -4355,7 +4355,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-4"
             id="cell-4-4"
             key="44"
@@ -4364,7 +4364,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-5"
             id="cell-4-5"
             key="45"
@@ -4373,7 +4373,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-6"
             id="cell-4-6"
             key="46"
@@ -4382,7 +4382,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-7"
             id="cell-4-7"
             key="47"
@@ -4391,7 +4391,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-8"
             id="cell-4-8"
             key="48"
@@ -4400,7 +4400,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-4-9"
             id="cell-4-9"
             key="49"
@@ -4414,7 +4414,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="5"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-0"
             id="cell-5-0"
             key="50"
@@ -4423,7 +4423,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-1"
             id="cell-5-1"
             key="51"
@@ -4432,7 +4432,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-2"
             id="cell-5-2"
             key="52"
@@ -4441,7 +4441,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-3"
             id="cell-5-3"
             key="53"
@@ -4450,7 +4450,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-4"
             id="cell-5-4"
             key="54"
@@ -4459,7 +4459,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-5"
             id="cell-5-5"
             key="55"
@@ -4468,7 +4468,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-6"
             id="cell-5-6"
             key="56"
@@ -4477,7 +4477,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-7"
             id="cell-5-7"
             key="57"
@@ -4486,7 +4486,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-8"
             id="cell-5-8"
             key="58"
@@ -4495,7 +4495,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-5-9"
             id="cell-5-9"
             key="59"
@@ -4509,7 +4509,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="6"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-0"
             id="cell-6-0"
             key="60"
@@ -4518,7 +4518,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-1"
             id="cell-6-1"
             key="61"
@@ -4527,7 +4527,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-2"
             id="cell-6-2"
             key="62"
@@ -4536,7 +4536,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-3"
             id="cell-6-3"
             key="63"
@@ -4545,7 +4545,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-4"
             id="cell-6-4"
             key="64"
@@ -4554,7 +4554,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-5"
             id="cell-6-5"
             key="65"
@@ -4563,7 +4563,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-6"
             id="cell-6-6"
             key="66"
@@ -4572,7 +4572,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-7"
             id="cell-6-7"
             key="67"
@@ -4581,7 +4581,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-8"
             id="cell-6-8"
             key="68"
@@ -4590,7 +4590,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-6-9"
             id="cell-6-9"
             key="69"
@@ -4604,7 +4604,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="7"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-0"
             id="cell-7-0"
             key="70"
@@ -4613,7 +4613,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-1"
             id="cell-7-1"
             key="71"
@@ -4622,7 +4622,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-2"
             id="cell-7-2"
             key="72"
@@ -4631,7 +4631,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-3"
             id="cell-7-3"
             key="73"
@@ -4640,7 +4640,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-4"
             id="cell-7-4"
             key="74"
@@ -4649,7 +4649,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-5"
             id="cell-7-5"
             key="75"
@@ -4658,7 +4658,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-6"
             id="cell-7-6"
             key="76"
@@ -4667,7 +4667,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-7"
             id="cell-7-7"
             key="77"
@@ -4676,7 +4676,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-8"
             id="cell-7-8"
             key="78"
@@ -4685,7 +4685,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-7-9"
             id="cell-7-9"
             key="79"
@@ -4699,7 +4699,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="8"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-0"
             id="cell-8-0"
             key="80"
@@ -4708,7 +4708,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-1"
             id="cell-8-1"
             key="81"
@@ -4717,7 +4717,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-2"
             id="cell-8-2"
             key="82"
@@ -4726,7 +4726,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-3"
             id="cell-8-3"
             key="83"
@@ -4735,7 +4735,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-4"
             id="cell-8-4"
             key="84"
@@ -4744,7 +4744,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-5"
             id="cell-8-5"
             key="85"
@@ -4753,7 +4753,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-6"
             id="cell-8-6"
             key="86"
@@ -4762,7 +4762,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-7"
             id="cell-8-7"
             key="87"
@@ -4771,7 +4771,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-8"
             id="cell-8-8"
             key="88"
@@ -4780,7 +4780,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-8-9"
             id="cell-8-9"
             key="89"
@@ -4794,7 +4794,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
           key="9"
         >
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-0"
             id="cell-9-0"
             key="90"
@@ -4803,7 +4803,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-1"
             id="cell-9-1"
             key="91"
@@ -4812,7 +4812,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-2"
             id="cell-9-2"
             key="92"
@@ -4821,7 +4821,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-3"
             id="cell-9-3"
             key="93"
@@ -4830,7 +4830,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-4"
             id="cell-9-4"
             key="94"
@@ -4839,7 +4839,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-5"
             id="cell-9-5"
             key="95"
@@ -4848,7 +4848,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-6"
             id="cell-9-6"
             key="96"
@@ -4857,7 +4857,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-7"
             id="cell-9-7"
             key="97"
@@ -4866,7 +4866,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-8"
             id="cell-9-8"
             key="98"
@@ -4875,7 +4875,7 @@ exports[`snapshot test test click on reset button and expect empty table  1`] = 
             0
           </td>
           <td
-            className="p-5 border cursor-pointer cell w-"
+            className="p-10 border cursor-pointer cell"
             data-testid="cell-9-9"
             id="cell-9-9"
             key="99"

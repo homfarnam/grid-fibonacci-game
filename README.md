@@ -86,4 +86,20 @@ yarn test
 
 **Tests:** React testing library, Enzyme
 
+
+
+## Task lists
+- [x] Create function for create a matrix
+- [x] Enable reset the game
+- [x] Change cell backgroud color to Yellow when click
+- [x] Change 5 cells backgroudcolors to Green when a Fibonacci pattern found
+- [x] Clean the cells after finding the pattern
+- [x] Create function to check if a pattern found from left side
+
+Some more options could make this app better but I had no time for that, I can make them in the future.
+
+- [] Check the pattern from right, top and bottom side
+- [] Change right, top and bottom side cells background colors to Yellow, Green
+ 
+ 
  

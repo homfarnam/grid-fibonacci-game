@@ -1,4 +1,3 @@
-import { Button } from "components"
 import React, { useEffect, useState } from "react"
 import {
   changeBgColor,
@@ -8,6 +7,7 @@ import {
   matrix,
   removeCellValues,
 } from "utils/utils"
+import { Button } from "components"
 
 interface AppProps {
   defaultSize?: number

@@ -88,7 +88,7 @@ yarn test
 
 
 
-## Task lists
+## Tasks list
 - [x] Create function for create a matrix
 - [x] Enable reset the game
 - [x] Change cell backgroud color to Yellow when click

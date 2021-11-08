@@ -98,8 +98,8 @@ yarn test
 
 Some more options could make this app better but I had no time for that, I can make them in the future.
 
-- [] Check the pattern from right, top and bottom side
-- [] Change right, top and bottom side cells background colors to Yellow, Green
+- [ ] Check the pattern from right, top and bottom side
+- [ ] Change right, top and bottom side cells background colors to Yellow, Green
  
  
  

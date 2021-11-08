@@ -2,7 +2,6 @@ import React from "react"
 
 interface TitleProps {
   text: string
-  // set type for className
   className?: React.HTMLAttributes<HTMLDivElement>["className"] | string
 }
 

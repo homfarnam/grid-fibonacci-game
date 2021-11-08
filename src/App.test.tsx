@@ -37,15 +37,12 @@ describe("Click tests", () => {
     userEvent.click(cell8)
 
     await waitFor(() => {
-      // expect to get a Fibonacci in first row
       expect(screen.getByTestId("cell-0-0").innerHTML).toBe("1")
       expect(screen.getByTestId("cell-0-1").innerHTML).toBe("1")
       expect(screen.getByTestId("cell-0-2").innerHTML).toBe("2")
       expect(screen.getByTestId("cell-0-3").innerHTML).toBe("3")
       expect(screen.getByTestId("cell-0-4").innerHTML).toBe("5")
     })
-
-    // wait 2 second and expect
 
     await waitFor(() => {
       setTimeout(() => {

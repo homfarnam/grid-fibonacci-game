@@ -14,6 +14,16 @@ https://grid-fibonacci-game.vercel.app/
 
 ## Installation
 
+I started to work on this project with this package that I made before.
+
+https://www.npmjs.com/package/@farnam/create-react-ts-tailwind-starter
+
+You can use it like:
+```bash
+npx @farnam/create-react-ts-tailwind-starter name
+```
+It will clone the repo and package files and install them.
+
 npm:
 
 ```bash

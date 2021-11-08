@@ -7,7 +7,6 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.24",
     "@types/node": "^12.20.25",
     "@types/react": "^17.0.21",
@@ -68,6 +67,8 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.12.1",
     "@tailwindcss/postcss7-compat": "^2.2.14",
+    "@testing-library/dom": "^8.11.0",
+    "@testing-library/user-event": "^13.5.0",
     "@types/enzyme": "^3.10.10",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",

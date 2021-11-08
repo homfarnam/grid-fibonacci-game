@@ -607,6 +607,10 @@ video {
 	margin-top: 3.5rem;
 	margin-bottom: 3.5rem;
 }
+.my-5 {
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
 .flex {
 	display: flex;
 }
@@ -630,6 +634,9 @@ video {
 }
 .cursor-pointer {
 	cursor: pointer;
+}
+.flex-col {
+	flex-direction: column;
 }
 .items-center {
 	align-items: center;
@@ -668,9 +675,23 @@ video {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+.text-center {
+	text-align: center;
+}
+.font-mono {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 .text-lg {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
+}
+.text-3xl {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+}
+.text-2xl {
+	font-size: 1.5rem;
+	line-height: 2rem;
 }
 .font-bold {
 	font-weight: 700;

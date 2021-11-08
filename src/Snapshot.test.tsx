@@ -60,10 +60,4 @@ describe("snapshot test", () => {
 
     expect(toJson(wrapper)).toMatchSnapshot()
   })
-
-  it("return span with text ", () => {
-    const wrapper = shallow(<App />).find(Button)
-
-    expect(wrapper.find(Button).prop("text")).toBe("Reset the game")
-  })
 })

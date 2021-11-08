@@ -60,7 +60,7 @@ const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
   }, [mainTable])
 
   return (
-    <div className="w-full h-full min-h-screen text-white bg-black">
+    <div className="main">
       <div className="container flex justify-center items-center mx-auto w-full">
         <Button
           id="reset"
@@ -71,7 +71,7 @@ const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
         />
       </div>
 
-      <div className="flex justify-center items-center my-10 w-full h-full">
+      <div className="flex justify-center items-center my-14 w-full h-full">
         <table className="text-white border">
           <tbody>
             {mainTable.map((row, i: number) => (
@@ -85,7 +85,7 @@ const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
                   })
                   return (
                     <td
-                      className="p-5 border cursor-pointer cell w-"
+                      className="p-10 border cursor-pointer"
                       key={i * defaultSize + j}
                       id={`cell-${i}-${j}`}
                       data-testid={`cell-${i}-${j}`}

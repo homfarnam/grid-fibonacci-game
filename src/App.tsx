@@ -7,7 +7,7 @@ import {
   matrix,
   removeCellValues,
 } from "utils/utils"
-import { Button } from "components"
+import { Button, Title } from "components"
 
 interface AppProps {
   defaultSize?: number
@@ -32,7 +32,7 @@ const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
     const cells = document.querySelectorAll("td") as NodeListOf<HTMLElement>
 
     cells.forEach((cell) => {
-      cell.className = "p-5 border cursor-pointer cell"
+      cell.className = "p-10 border cursor-pointer"
     })
   }
 
@@ -61,7 +61,11 @@ const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
 
   return (
     <div className="main">
-      <div className="container flex justify-center items-center mx-auto w-full">
+      <div className="container flex flex-col justify-center items-center mx-auto w-full">
+        <Title
+          text="Grid Fibonacci Game"
+          className="my-10 font-mono text-2xl"
+        />
         <Button
           id="reset"
           text="Reset the game"

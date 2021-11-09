@@ -39,7 +39,6 @@ const changeBgColor = (row: number, col: number, color?: string): void => {
 }
 
 const colorize = (arr: number[][], row: number, col: number): number[][] => {
-  // create function for change bgcolor of current cell
   changeBgColor(row, col)
 
   return arr
@@ -56,26 +55,30 @@ const checkFib = ({
   row: number
   table: number[][]
 }): boolean => {
-  if (
-    col_start < 0 ||
-    col_end < 0 ||
-    !(
-      table[row][col_start] &&
-      table[row][col_start - 1] &&
-      table[row][col_start - 2] &&
-      table[row][col_start - 3] &&
-      table[row][col_start - 4]
+  try {
+    const fibSeq = table[row].slice(col_start - 4, 5)
+
+    if (
+      col_start < 0 ||
+      col_end < 0 ||
+      !(fibSeq[0] && fibSeq[1] && fibSeq[2] && fibSeq[3] && fibSeq[4])
+    ) {
+      return false
+    }
+
+    if (fibSeq[0] === fibSeq[1] && fibSeq[0] !== 1) {
+      return false
+    }
+
+    return (
+      fibSeq[4] - fibSeq[3] === fibSeq[2] &&
+      fibSeq[3] - fibSeq[2] === fibSeq[1] &&
+      fibSeq[2] - fibSeq[1] === fibSeq[0]
     )
-  ) {
+  } catch (e) {
+    console.log("e: ", e)
     return false
   }
-
-  return (
-    table[row][col_start] - table[row][col_start - 1] ===
-      table[row][col_start - 2] &&
-    table[row][col_start - 2] - table[row][col_start - 3] ===
-      table[row][col_start - 4]
-  )
 }
 
 const removeCellValues = ({

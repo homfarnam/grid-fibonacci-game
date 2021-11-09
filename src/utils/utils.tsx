@@ -20,12 +20,7 @@ const incrementArray = (
   )
 }
 
-const changeBgColor = (
-  row: number,
-  col: number,
-
-  color?: string
-): void => {
+const changeBgColor = (row: number, col: number, color?: string): void => {
   const cell = document.getElementById(`cell-${row}-${col}`)
 
   if (cell && !color) {

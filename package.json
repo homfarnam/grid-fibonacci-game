@@ -13,11 +13,8 @@
     "@types/react-dom": "^17.0.9",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
     "cross-env": "^7.0.3",
-    "delay-cli": "^1.1.0",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
-    "npm-init-helper": "^1.2.2",
-    "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.2",
     "postcss-preset-env": "^6.7.0",
@@ -26,7 +23,6 @@
     "react-scripts": "^4.0.3",
     "semantic-release-cli": "^5.4.4",
     "typescript": "^4.4.3",
-    "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -89,10 +85,5 @@
     "standard-version": "^9.3.1",
     "tailwindcss": "^2.2.15",
     "tsconfig-paths-webpack-plugin": "^3.5.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }

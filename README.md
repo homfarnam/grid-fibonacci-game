@@ -101,6 +101,7 @@ Some more options could make this app better but I had no time for that, I can m
 - [ ] Check the pattern from right, top and bottom side
 - [ ] Change right, top and bottom side cells background colors to Yellow, Green
 - [ ] Create a score board and add score when a pattern found
+- [ ] Change styles with state
  
  
  

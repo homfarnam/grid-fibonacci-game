@@ -1,9 +1,7 @@
 import React from "react"
-
-import { render, screen, waitFor } from "@testing-library/react"
-import userEvent from "@testing-library/user-event"
+import { render, screen } from "@testing-library/react"
 import App from "App"
-import { incrementArray, matrix } from "./utils"
+import { changeBgColor, checkFib, incrementArray, matrix } from "./utils"
 
 describe("Utils tests", () => {
   const table = matrix(10, 10, 0)
@@ -32,5 +30,47 @@ describe("Utils tests", () => {
       [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     ])
+  })
+
+  test("Pass cell row and col with no color to function and expect to change background color to Yellow", () => {
+    render(<App />)
+    const cell = screen.getByTestId("cell-0-0")
+
+    changeBgColor(0, 0)
+
+    expect(cell).toHaveClass("fade-colors-yellow")
+  })
+
+  test("Pass cell row and col with color to function and expect to change background color to Yellow", () => {
+    render(<App />)
+    const cell = screen.getByTestId("cell-0-0")
+
+    changeBgColor(0, 0, "green")
+
+    expect(cell).toHaveClass("fade-colors-green")
+  })
+
+  test("Pass col start and col end and row to function and expect to return is it a Fibonacci pattern or not  ", async () => {
+    const tableArray = [
+      [1, 1, 2, 3, 5, 1, 1, 1, 1, 1],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ]
+
+    const CheckFibonacci = checkFib({
+      row: 0,
+      col_start: 4,
+      col_end: 0,
+      table: tableArray,
+    })
+
+    expect(CheckFibonacci).toBeTruthy()
   })
 })

@@ -64,12 +64,12 @@ const App: React.FC<AppProps> = ({ defaultSize = 50 }) => {
       <div className="container flex flex-col justify-center items-center mx-auto w-full">
         <Title
           text="Grid Fibonacci Game"
-          className="my-10 font-mono text-2xl"
+          className="my-10 font-mono text-5xl"
         />
         <Button
           id="reset"
           text="Reset the game"
-          className="p-3 my-10 mx-5 border"
+          className="my-10 mx-5 text-3xl border"
           onClick={resetGame}
           variant="white"
         />

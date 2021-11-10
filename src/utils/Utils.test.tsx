@@ -73,4 +73,28 @@ describe("Utils tests", () => {
 
     expect(CheckFibonacci).toBeTruthy()
   })
+
+  test("Pass wrong col start and col end and row to function and expect to return false", async () => {
+    const tableArray = [
+      [1, 1, 2, 3, 5, 1, 1, 1, 1, 1],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ]
+
+    const CheckFibonacci = checkFib({
+      row: 2,
+      col_start: 4,
+      col_end: 8,
+      table: tableArray,
+    })
+
+    expect(CheckFibonacci).toBeFalsy()
+  })
 })

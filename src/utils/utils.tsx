@@ -55,30 +55,25 @@ const checkFib = ({
   row: number
   table: number[][]
 }): boolean => {
-  try {
-    const fibSeq = table[row].slice(col_start - 4, 5)
+  const fibSeq = table[row].slice(col_start - 4, 1 + col_start)
 
-    if (
-      col_start < 0 ||
-      col_end < 0 ||
-      !(fibSeq[0] && fibSeq[1] && fibSeq[2] && fibSeq[3] && fibSeq[4])
-    ) {
-      return false
-    }
-
-    if (fibSeq[0] === fibSeq[1] && fibSeq[0] !== 1) {
-      return false
-    }
-
-    return (
-      fibSeq[4] - fibSeq[3] === fibSeq[2] &&
-      fibSeq[3] - fibSeq[2] === fibSeq[1] &&
-      fibSeq[2] - fibSeq[1] === fibSeq[0]
-    )
-  } catch (e) {
-    console.log("e: ", e)
+  if (
+    col_start < 0 ||
+    col_end < 0 ||
+    !(fibSeq[0] && fibSeq[1] && fibSeq[2] && fibSeq[3] && fibSeq[4])
+  ) {
     return false
   }
+
+  if (fibSeq[0] === fibSeq[1] && fibSeq[0] !== 1) {
+    return false
+  }
+
+  return (
+    fibSeq[4] - fibSeq[3] === fibSeq[2] &&
+    fibSeq[3] - fibSeq[2] === fibSeq[1] &&
+    fibSeq[2] - fibSeq[1] === fibSeq[0]
+  )
 }
 
 const removeCellValues = ({

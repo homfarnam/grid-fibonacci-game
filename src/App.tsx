@@ -13,7 +13,7 @@ interface AppProps {
   defaultSize?: number
 }
 
-const App: React.FC<AppProps> = ({ defaultSize = 10 }) => {
+const App: React.FC<AppProps> = ({ defaultSize = 50 }) => {
   const [mainTable, setMainTable] = useState<number[][]>(
     matrix(defaultSize, defaultSize, 0)
   )

@@ -81,12 +81,6 @@ const App: React.FC<AppProps> = ({ defaultSize = 50 }) => {
             {mainTable.map((row, i: number) => (
               <tr key={i} className="p-3">
                 {row.map((_cell, j: number) => {
-                  checkFib({
-                    row: i,
-                    col_start: j,
-                    col_end: j - 4,
-                    table: mainTable,
-                  })
                   return (
                     <td
                       className="p-10 border cursor-pointer"

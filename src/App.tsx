@@ -60,7 +60,7 @@ const App: React.FC<AppProps> = ({ defaultSize = 50 }) => {
   }, [mainTable])
 
   return (
-    <div className="main">
+    <div className="py-10 main">
       <div className="container flex flex-col justify-center items-center mx-auto w-full">
         <Title
           text="Grid Fibonacci Game"

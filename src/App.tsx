@@ -37,26 +37,46 @@ const App: React.FC<AppProps> = ({ defaultSize = 50 }) => {
   }
 
   useEffect(() => {
+    const cells: {
+      row: number
+      col_start: number
+      col_end: number
+      setMainTable: React.Dispatch<React.SetStateAction<number[][]>>
+    }[] = []
+
     for (let i = 0; i < mainTable.length; i++) {
       for (let j = 0; j < mainTable.length; j++) {
         if (
-          checkFib({ row: i, col_start: j, col_end: j - 4, table: mainTable })
+          checkFib({
+            row: i,
+            col_start: j,
+            col_end: j - 4,
+            table: mainTable,
+          })
         ) {
+          console.log("here : ", true)
           for (let k = 4; k >= 0; k--) {
             changeBgColor(i, j - k, "green")
           }
+          cells.push({
+            row: i,
+            col_start: j,
+            col_end: j - 4,
+            setMainTable,
+          })
 
-          setTimeout(() => {
-            removeCellValues({
-              row: i,
-              col_start: j,
-              col_end: j - 4,
-              setMainTable,
-            })
-          }, 2000)
+          // setTimeout(() => {
+          //   removeCellValues({
+          //     row: i,
+          //     col_start: j,
+          //     col_end: j - 4,
+          //     setMainTable,
+          //   })
+          // }, 2000)
         }
       }
     }
+    setTimeout(() => cells.forEach(removeCellValues), 2000)
   }, [mainTable])
 
   return (

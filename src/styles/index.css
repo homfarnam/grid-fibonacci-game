@@ -662,6 +662,10 @@ video {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+.py-10 {
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
 .font-mono {
 	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

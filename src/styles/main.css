@@ -54,8 +54,7 @@ td {
 
 .main {
   width: 100%;
-  height: max-content;
-  min-height: 100vw;
+  height: 100%;
   background: black;
   color: white;
 }

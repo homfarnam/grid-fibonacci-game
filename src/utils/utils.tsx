@@ -8,7 +8,7 @@ const matrix = (
   ) as Array<Array<number>>
 }
 
-const incrementArray = (
+const incrementCells = (
   arr: number[][],
   row: number,
   col: number
@@ -76,6 +76,28 @@ const checkFib = ({
   )
 }
 
+const memoizedCheckFib = (table: number[][]) => {
+  const cache = new Map()
+  return ({ row, col_start }: { row: number; col_start: number }): boolean => {
+    if (cache.has(`${row}-${col_start}`)) {
+      return cache.get(`${row}-${col_start}`)
+    }
+    const fibSeq = table[row].slice(col_start - 4, 1 + col_start)
+    if (!(fibSeq[0] && fibSeq[1] && fibSeq[2] && fibSeq[3] && fibSeq[4])) {
+      return false
+    }
+    if (fibSeq[0] === fibSeq[1] && fibSeq[0] !== 1) {
+      return false
+    }
+    const isFib =
+      fibSeq[4] - fibSeq[3] === fibSeq[2] &&
+      fibSeq[3] - fibSeq[2] === fibSeq[1] &&
+      fibSeq[2] - fibSeq[1] === fibSeq[0]
+    cache.set(`${row}-${col_start}`, isFib)
+    return isFib
+  }
+}
+
 const removeCellValues = ({
   col_start,
   col_end,
@@ -107,9 +129,10 @@ const removeCellValues = ({
 
 export {
   matrix,
-  incrementArray,
+  incrementCells,
   colorize,
   changeBgColor,
   checkFib,
   removeCellValues,
+  memoizedCheckFib,
 }

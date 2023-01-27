@@ -1,7 +1,7 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
 import App from "App"
-import { changeBgColor, checkFib, incrementArray, matrix } from "./utils"
+import { changeBgColor, checkFib, incrementCells, matrix } from "./utils"
 
 describe("Utils tests", () => {
   const table = matrix(10, 10, 0)
@@ -16,7 +16,7 @@ describe("Utils tests", () => {
   test("Pass cell row and col to function and expect to increase the row and col values", () => {
     render(<App />)
 
-    const increment = incrementArray(table, 0, 0)
+    const increment = incrementCells(table, 0, 0)
 
     expect(increment).toEqual([
       [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
